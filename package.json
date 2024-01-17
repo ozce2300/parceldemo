@@ -4,12 +4,15 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
-"start": "parcel",
-"build": "parcel build"
-},
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "author": "Özgur Celik",
   "license": "ISC",
   "dependencies": {
     "parcel": "^2.11.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.31.3"
   }
 }

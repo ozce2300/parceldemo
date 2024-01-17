@@ -10,6 +10,7 @@ html {
 
 h1 {
     font-size: 3rem;
+    text-align: center;
 }
 
 h2{
@@ -89,6 +90,17 @@ main {
     border-radius: 10px;
 
 }
+.bilder {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    row-gap: 40px;
+    margin-top: 40px;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
 
 footer {
     grid-area: footer;
